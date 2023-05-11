@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1129.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller.Bro_Table">
+   <children>
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#f9fcf8" height="700.0" stroke="#d31b84" strokeType="INSIDE" strokeWidth="5.0" width="1129.0" />
+      <TableView fx:id="BookingTable" layoutX="187.0" layoutY="95.0" prefHeight="452.0" prefWidth="710.0" stylesheets="@../tableview.css">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="60.0" text="id" />
+          <TableColumn fx:id="NameColumn" prefWidth="115.0" text="Name" />
+            <TableColumn fx:id="CMNDColumn" prefWidth="132.0" text="CMND" />
+            <TableColumn fx:id="PhoneColumn" prefWidth="89.0" text="Phone" />
+            <TableColumn fx:id="tableColumn" prefWidth="49.0" text="Table" />
+            <TableColumn fx:id="DateColumn" prefWidth="119.0" text="BookingDate" />
+            <TableColumn fx:id="StartColumn" prefWidth="81.0" text="StartHours" />
+            <TableColumn fx:id="EndColumn" prefWidth="64.0" text="EndHours" />
+        </columns>
+      </TableView>
+      <Button layoutX="700.0" layoutY="572.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="159.0" style="-fx-background-color: pink;" text="Duyệt" textFill="#bc0c0c">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="31.0" fitWidth="38.0" layoutX="711.0" layoutY="587.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/edit_48px.png" />
+         </image>
+      </ImageView>
+      <DatePicker layoutX="250.0" layoutY="40.0" prefHeight="37.0" prefWidth="174.0" />
+      <Button layoutX="598.0" layoutY="40.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="83.0" text="Lọc">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.6113744075829384" endY="0.46445497630331756" startX="0.6113744075829384" startY="0.38388625592417064">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.0520833320915699" green="0.3196180462837219" blue="0.75" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6973684430122375" green="0.08394249528646469" blue="0.5133406519889832" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+</AnchorPane>

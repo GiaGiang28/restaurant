@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller.Bro_Table">
+   <children>
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#f9fcf8" height="800.0" stroke="#d31b84" strokeType="INSIDE" strokeWidth="5.0" width="800.0" />
+      <Label layoutX="324.0" layoutY="37.0" prefHeight="36.0" prefWidth="152.0" text="Đăng ký tài khoản">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9200000166893005" green="0.04600000008940697" blue="0.46099281311035156" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.3141244351863861" green="0.04355506971478462" blue="0.8552631735801697" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="78.0" layoutY="178.0" prefHeight="36.0" prefWidth="83.0" style="-fx-alignment: center;" text="Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8421052694320679" green="0.09824561327695847" blue="0.015594542026519775" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.04385964944958687" green="0.9473684430122375" blue="0.224561408162117" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="78.0" layoutY="257.0" prefHeight="36.0" prefWidth="83.0" style="-fx-alignment: center;" text="Email">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8421052694320679" green="0.09824561327695847" blue="0.015594542026519775" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.04385964944958687" green="0.9473684430122375" blue="0.224561408162117" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="78.0" layoutY="339.0" prefHeight="36.0" prefWidth="83.0" style="-fx-alignment: center;" text="Password">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8421052694320679" green="0.09824561327695847" blue="0.015594542026519775" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.04385964944958687" green="0.9473684430122375" blue="0.224561408162117" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="78.0" layoutY="418.0" prefHeight="36.0" prefWidth="83.0" style="-fx-alignment: center;" text="CMND">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8421052694320679" green="0.09824561327695847" blue="0.015594542026519775" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.04385964944958687" green="0.9473684430122375" blue="0.224561408162117" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="78.0" layoutY="496.0" prefHeight="36.0" prefWidth="83.0" style="-fx-alignment: center;" text="Phone">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8421052694320679" green="0.09824561327695847" blue="0.015594542026519775" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.04385964944958687" green="0.9473684430122375" blue="0.224561408162117" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <TextField layoutX="230.0" layoutY="184.0" />
+      <TextField layoutX="230.0" layoutY="263.0" />
+      <TextField layoutX="230.0" layoutY="345.0" />
+      <TextField layoutX="230.0" layoutY="424.0" />
+      <TextField layoutX="236.0" layoutY="496.0" />
+      <Button layoutX="424.0" layoutY="583.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="105.0" style="-fx-background-color: pink;" text="Đăng ký">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8999999761581421" green="0.15889208018779755" blue="0.027000000700354576" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.04385964944958687" green="0.9473684430122375" blue="0.224561408162117" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+</AnchorPane>

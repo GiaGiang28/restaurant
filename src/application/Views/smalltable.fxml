@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<HBox fx:id="box" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#hover" onMouseEntered="#hover" onMouseExited="#hover" prefHeight="143.0" prefWidth="186.0" style="-fx-background-color: #03ffff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller.smallTable">
+   <children>
+      <ImageView fx:id="imagetable" fitHeight="85.0" fitWidth="93.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/round_table_48px.png" />
+         </image>
+      </ImageView>
+      <VBox prefHeight="137.0" prefWidth="101.0">
+         <children>
+            <Label fx:id="labtable" prefHeight="36.0" prefWidth="101.0" style="-fx-alignment: center;" text="Label" textFill="#630ca1" />
+            <Label fx:id="labCapacity" prefHeight="39.0" prefWidth="101.0" style="-fx-alignment: center;" text="Lable" textFill="#630ca1" />
+            <Label fx:id="Status" prefHeight="39.0" prefWidth="101.0" style="-fx-alignment: center;" textFill="#630ca1" />
+         </children>
+      </VBox>
+   </children>
+</HBox>

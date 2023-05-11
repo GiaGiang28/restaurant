@@ -1,0 +1,38 @@
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #4b006b, #9a047a);
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-background-insets: 0 0 0 0;
+    -fx-padding: 0 0 0 0;
+}
+.table-view {
+    -fx-background-color: transparent;
+}
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-text-background-color: white;
+}
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+}
+.table-row-cell:hover {
+    -fx-background-color: ffbffd;
+    -fx-text-background-color: red;
+}
+.table-row-cell:odd{
+    -fx-background-color: ffbffd;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-row-cell:even{
+    -fx-background-color: #ffffff;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding:0.0em;
+}
+.table-row-cell:highlighted {
+    -fx-background-color: #81c483;
+    -fx-background-radius: 15px;
+}

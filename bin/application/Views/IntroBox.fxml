@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1129.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="700.0" stroke="#9a047a" strokeType="INSIDE" strokeWidth="5.0" width="1129.0" />
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#909090" height="93.0" layoutX="109.0" layoutY="119.0" stroke="TRANSPARENT" strokeType="INSIDE" width="201.0" />
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="93.0" layoutX="99.0" layoutY="111.0" stroke="TRANSPARENT" strokeType="INSIDE" width="201.0">
+         <fill>
+            <LinearGradient endX="0.587378640776699" endY="1.0" startX="0.587378640776699" startY="0.10679611650485435">
+               <stops>
+                  <Stop color="#4b006b" />
+                  <Stop color="#9a047a" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9a047a" height="472.0" layoutX="659.0" layoutY="117.0" stroke="TRANSPARENT" strokeType="INSIDE" width="342.0" />
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#909090" height="93.0" layoutX="114.0" layoutY="306.0" stroke="TRANSPARENT" strokeType="INSIDE" width="201.0" />
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="93.0" layoutX="104.0" layoutY="298.0" stroke="TRANSPARENT" strokeType="INSIDE" width="201.0">
+         <fill>
+            <LinearGradient endX="0.587378640776699" endY="1.0" startX="0.587378640776699" startY="0.10679611650485435">
+               <stops>
+                  <Stop color="#4b006b" />
+                  <Stop color="#9a047a" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#909090" height="93.0" layoutX="114.0" layoutY="491.0" stroke="TRANSPARENT" strokeType="INSIDE" width="201.0" />
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="93.0" layoutX="104.0" layoutY="483.0" stroke="TRANSPARENT" strokeType="INSIDE" width="201.0">
+         <fill>
+            <LinearGradient endX="0.587378640776699" endY="1.0" startX="0.587378640776699" startY="0.10679611650485435">
+               <stops>
+                  <Stop color="#4b006b" />
+                  <Stop color="#9a047a" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="153.0" layoutY="131.0" prefHeight="53.0" prefWidth="100.0" style="-fx-alignment: center;" text="NGON">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.0881841704249382" green="0.9399999976158142" blue="0.05640000104904175" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.05640000104904175" green="0.8255769610404968" blue="0.9399999976158142" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="150.0" layoutY="318.0" prefHeight="53.0" prefWidth="100.0" style="-fx-alignment: center;" text="BỔ">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.0881841704249382" green="0.9399999976158142" blue="0.05640000104904175" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.05640000104904175" green="0.8255769610404968" blue="0.9399999976158142" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="150.0" layoutY="503.0" prefHeight="53.0" prefWidth="100.0" style="-fx-alignment: center;" text="RẺ">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.0881841704249382" green="0.9399999976158142" blue="0.05640000104904175" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.05640000104904175" green="0.8255769610404968" blue="0.9399999976158142" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="748.0" layoutY="131.0" prefHeight="53.0" prefWidth="189.0" style="-fx-alignment: center;" text="Nội Quy">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.0881841704249382" green="0.9399999976158142" blue="0.05640000104904175" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.05640000104904175" green="0.8255769610404968" blue="0.9399999976158142" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="671.0" layoutY="186.0" prefHeight="53.0" prefWidth="320.0" style="-fx-alignment: left;" text="1.Không gây sự">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.0881841704249382" green="0.9399999976158142" blue="0.05640000104904175" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.05640000104904175" green="0.8255769610404968" blue="0.9399999976158142" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="670.0" layoutY="239.0" prefHeight="69.0" prefWidth="320.0" style="-fx-alignment: left;" text="2.Không mang vật cấm">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.0881841704249382" green="0.9399999976158142" blue="0.05640000104904175" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.05640000104904175" green="0.8255769610404968" blue="0.9399999976158142" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="670.0" layoutY="318.0" prefHeight="53.0" prefWidth="320.0" style="-fx-alignment: left;" text="3.Phục vụ chu đáo">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.0881841704249382" green="0.9399999976158142" blue="0.05640000104904175" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.05640000104904175" green="0.8255769610404968" blue="0.9399999976158142" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="670.0" layoutY="391.0" prefHeight="53.0" prefWidth="320.0" style="-fx-alignment: left;" text="4.Nhân viên không gây sự với khách">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.0881841704249382" green="0.9399999976158142" blue="0.05640000104904175" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.05640000104904175" green="0.8255769610404968" blue="0.9399999976158142" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+   </children>
+</AnchorPane>
